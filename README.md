@@ -41,6 +41,13 @@ node fillDates/fillDays.js
 node fillDates/listDatabases.js
 ```
 
+### Database Requirements
+
+For the scripts to work properly, your Notion database must have:
+- A **"Date"** column (property)
+- A **"Days"** column (property)
+- The **"Date"** column must be sorted in **ascending order**
+
 ## Requirements
 
 - Node.js (v14 or higher)
